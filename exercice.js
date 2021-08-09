@@ -1,4 +1,5 @@
-function sum(a, b) {
-    return a + b;
-  }
-  module.exports = sum;
+function hexToDec(hexString){
+  return parseInt(hexString, 16);
+}
+
+module.exports = hexToDec;
