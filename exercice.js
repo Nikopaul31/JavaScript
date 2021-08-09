@@ -1,4 +1,4 @@
-function sum(a, b) {
-    return a + b;
+function myFunc(bool) {
+    return bool.toString();
   }
-  module.exports = sum;
+  module.exports = myFunc;
