@@ -1,4 +1,5 @@
-function sum(a, b) {
-    return a + b;
-  }
-  module.exports = sum;
+function numberToString(num) {
+  return num.toString()
+}
+
+module.exports = numberToString;
