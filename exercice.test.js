@@ -1,5 +1,9 @@
 const myFunction = require('./exercice');
 
-test('running test', () => {
-  expect(myFunction(1, 2)).toBe(3);
+test('expect Kaya to be false', () => {
+  expect(myFunction("Kaya")).toBe(false);
+});
+
+test('expect Kayak to be true', () => {
+  expect(myFunction("Kayak")).toBe(true);
 });
