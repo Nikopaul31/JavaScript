@@ -13,6 +13,6 @@ function getAverage(marks) {
 module.exports = getAverage;
 
 /* BEST ALTERNATIVE */
-function getAverage(marks) {
+function getAverage2(marks) {
   return Math.floor(marks.reduce((sum, x) => sum + x) / marks.length);
 }
